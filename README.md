@@ -21,11 +21,15 @@ The original README.md from the authors is at README_ORIGINAL.md
 ## Important Items I have found so far
 - Input size and orientation
 Orientation is Slice x Width x Height (aka Z, X, Y). 
+
+
 Ophthamology looks at B-Scans (slices with the X dimension being the "width" and the Y dimension being the "height").  Each Scan (B-Scan or "Slice" is along the Z direction) So i like to think of this (personal model) as 60 images of 256x256.  The fun part is native OCT comes in a TON of resolutions--the most common I have encountered is 97x512x496
+
 
 Training size was 60x256x256 on using a VIT 3D Autoencoder with 90% masking
 
 ## TODO
 - Add a diagram of an OCT
-
+- Link findings to the paper(s) 
+- Untangle the Install Procedures/Venv.
 Last Updated 10-01-26
